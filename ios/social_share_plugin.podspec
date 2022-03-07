@@ -19,6 +19,6 @@ Social Share to Facebook and Intagram Flutter plugin.
   s.dependency 'FBSDKShareKit'
 
 
-  s.ios.deployment_target = '9.0'
+  s.ios.deployment_target = '12.0'
 end
 
