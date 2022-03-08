@@ -124,21 +124,21 @@
 
 - (void)facebookShare:(NSString*)imagePath {
     //NSURL* path = [[NSURL alloc] initWithString:call.arguments[@"path"]];
-    FBSDKSharePhoto *photo = [[FBSDKSharePhoto alloc] init];
+    /* FBSDKSharePhoto *photo = [[FBSDKSharePhoto alloc] init];
     photo.image = [[UIImage alloc] initWithContentsOfFile:imagePath];
     FBSDKSharePhotoContent *content = [[FBSDKSharePhotoContent alloc] init];
     content.photos = @[photo];
     UIViewController* controller = [UIApplication sharedApplication].delegate.window.rootViewController;
-    [FBSDKShareDialog showFromViewController:controller withContent:content delegate:self];
+    [FBSDKShareDialog showFromViewController:controller withContent:content delegate:self]; */
 }
 
 - (void)facebookShareLink:(NSString*)quote
                       url:(NSString*)url {
-    FBSDKShareLinkContent *content = [[FBSDKShareLinkContent alloc] init];
+    /* FBSDKShareLinkContent *content = [[FBSDKShareLinkContent alloc] init];
     content.contentURL = [NSURL URLWithString:url];
     content.quote = quote;
     UIViewController* controller = [UIApplication sharedApplication].delegate.window.rootViewController;
-    [FBSDKShareDialog showFromViewController:controller withContent:content delegate:self];
+    [FBSDKShareDialog showFromViewController:controller withContent:content delegate:self]; */
 }
 
 - (void)instagramShare:(NSString*)imagePath {
